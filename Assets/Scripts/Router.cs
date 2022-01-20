@@ -27,6 +27,10 @@ public class Router : MonoBehaviour
         SceneManager.LoadScene(2);
     }
 
+    public void chooseCharacter() {
+        SceneManager.LoadScene(3);
+    }
+
     // Update is called once per frame
     void Update()
     {
